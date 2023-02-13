@@ -1,0 +1,118 @@
+/* .header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2.4rem 4.8rem;
+  padding-right: 0;
+}
+
+.header-logo {
+}
+
+.navigation {
+  background-color: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(5px);
+  padding: 3.6rem 16rem 3.6rem 12rem;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 4.8rem;
+}
+
+.nav-item {
+}
+
+.nav-item a {
+  font-size: 1.6rem;
+  text-decoration: none;
+  color: white;
+  letter-spacing: 1px;
+}
+
+.nav-item span {
+  padding-right: 2px;
+} */
+
+body {
+  background-image: url("./../assets/destination/background-destination-desktop.jpg");
+}
+
+/* hero-section */
+.hero {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 130rem;
+  margin: 0 auto;
+  margin-top: 12rem;
+  padding: 0 4.8rem;
+}
+
+.hero_left {
+  align-self: center;
+  /* justify-self: center; */
+  /* display: flex;
+  flex-direction: column;
+  gap: 4rem; */
+  padding: 2rem;
+}
+
+.hero_left img {
+  margin-top: 8rem;
+}
+
+.hero_right {
+  align-self: start;
+  justify-self: right;
+  padding: 2rem;
+}
+
+/* Destination */
+
+.destination-list {
+  list-style: none;
+  display: flex;
+  gap: 3.6rem;
+  margin-bottom: 3.2rem;
+}
+
+.destination {
+}
+
+.destination.active {
+  border-bottom: 2px solid white;
+  padding-bottom: 1.2rem;
+  /* text-decoration: underline;
+  color: white;
+  padding-bottom: 1.2rem; */
+}
+
+.destination a {
+  font-size: 1.8rem;
+  font-weight: 400;
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+}
+
+.divider {
+  height: 1px;
+  width: 100%;
+  background-color: white;
+  margin-top: 4rem;
+  margin-bottom: 3.2rem;
+}
+
+.destination-details {
+  display: flex;
+  align-items: center;
+  gap: 7.2rem;
+}
+
+.destination-detail {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}

@@ -1,0 +1,26 @@
+body {
+  background-image: url("./../assets/home/background-home-desktop.jpg");
+}
+
+/* hero section */
+
+.hero {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 130rem;
+  margin: 0 auto;
+  margin-top: 22rem;
+  padding: 0 4.8rem;
+}
+
+.hero_right {
+  align-self: end;
+  justify-self: right;
+}
+
+.white-circle {
+  width: 25rem;
+  height: 25rem;
+  background-color: white;
+  border-radius: 15rem;
+}
